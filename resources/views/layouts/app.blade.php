@@ -18,6 +18,7 @@
         <!-- Styles -->
         @livewireStyles
     </head>
+    
     <body class="font-sans antialiased">
         <x-banner />
 
@@ -36,6 +37,9 @@
             <!-- Page Content -->
             <main>
                 {{ $slot }}
+                <!-- cara lain memanggil counter.blade-->
+                <livewire:counter /> 
+                @livewire('counter')
             </main>
         </div>
 

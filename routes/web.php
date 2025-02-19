@@ -1,10 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 use App\Livewire\Posts;
-
-Route::get('posts', Posts::class)->middleware('auth');
 
 Route::get('/', function () {
     return view('welcome');
@@ -19,3 +16,5 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('posts', Posts::class)->middleware('auth')->name('posts');

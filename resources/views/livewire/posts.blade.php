@@ -1,7 +1,7 @@
 <x-slot name="header">
-    <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+    <!-- <h2 class="font-semibold text-xl text-gray-800 leading-tight">
         Manage Posts (Laravel 11 Livewire CRUD with Jetstream & Tailwind CSS - ItSolutionStuff.com)
-    </h2>
+    </h2> -->
 </x-slot>
 
 <div class="py-12">
@@ -25,9 +25,16 @@
                 @include('livewire.create')
             @endif
 
-            <table class="table-fixed w-full">
+            <div class="flex">
+                <input type="text" wire:model.lazy="search" placeholder="Search..." class="border border-gray-300 p-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button wire:click="search" class="bg-blue-500 text-white px-4 py-2 rounded-r-lg shadow hover:bg-blue-700 transition">
+                    🔍
+                </button>
+            </div>
+
+            <table class="table-fixed w-full border border-gray-300 shadow-lg rounded-lg">
                 <thead>
-                    <tr class="bg-gray-100">
+                    <tr class="bg-gray-100 border border-blue-300">
                         <th class="px-4 py-2 w-20">No.</th>
                         <th class="px-4 py-2">Title</th>
                         <th class="px-4 py-2">Body</th>
@@ -36,14 +43,18 @@
                 </thead>
                 <tbody>
                     @foreach($posts as $post)
-                        <tr>
+                        <tr class="odd:bg-white even:bg-gray-100 border-b border-gray-300">
                             <td class="border px-4 py-2">{{ $post->id }}</td>
                             <td class="border px-4 py-2">{{ $post->title }}</td>
                             <td class="border px-4 py-2">{{ $post->body }}</td>
-                            <td class="border px-4 py-2">
-                            <button wire:click="edit({{ $post->id }})" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit</button>
-                                <button wire:click="delete({{ $post->id }})" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete</button>
-                            </td>
+                            <td class="border border-gray-300 p-2 flex justify-center gap-2">
+                            <button wire:click="edit({{ $post->id }})" class="bg-blue-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-blue-700 transition">
+                                ✏️
+                            </button>
+                            <button wire:click="delete({{ $post->id }})" class="bg-red-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-red-700 transition">
+                                🗑
+                            </button>
+                        </td>
                         </tr>
                     @endforeach
                 </tbody>

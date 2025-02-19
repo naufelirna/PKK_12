@@ -1,0 +1,82 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#494
+    [34mall[39m: [
+      [34;4mApp\Models\Post[39;24m {#6511
+        [34mid[39m: [35m2[39m,
+        [34mtitle[39m: "[32mDr.[39m",
+        [34mbody[39m: "[32mPossimus dolores doloribus assumenda sint. Totam numquam sed omnis quaerat. Fuga amet sed repellat architecto. Quis et sint aut dolor eos.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-19 00:57:51[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6512
+        [34mid[39m: [35m3[39m,
+        [34mtitle[39m: "[32mMiss[39m",
+        [34mbody[39m: "[32mNon reiciendis sed sunt occaecati molestiae explicabo. Qui possimus voluptas ut ullam. Tempora officia vel odit eveniet maxime.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6513
+        [34mid[39m: [35m4[39m,
+        [34mtitle[39m: "[32mProf.[39m",
+        [34mbody[39m: "[32mQui earum qui hic. Qui molestiae occaecati aliquid recusandae. Facere autem omnis voluptas molestiae. Officiis est error enim. Laudantium autem blanditiis a adipisci.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6514
+        [34mid[39m: [35m5[39m,
+        [34mtitle[39m: "[32mMrs.[39m",
+        [34mbody[39m: "[32mSunt sunt aut nulla. Autem autem qui accusamus asperiores totam autem. Deserunt incidunt sunt illo cumque quidem sed.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6515
+        [34mid[39m: [35m6[39m,
+        [34mtitle[39m: "[32mMs.[39m",
+        [34mbody[39m: "[32mCulpa qui voluptas similique sint dolore. Harum iure maiores est placeat rerum. Quis recusandae molestiae nemo dolores. Quae ipsum sit odio distinctio perspiciatis ut.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6516
+        [34mid[39m: [35m7[39m,
+        [34mtitle[39m: "[32mMr.[39m",
+        [34mbody[39m: "[32mIn quibusdam quo qui dolorum voluptatem ratione natus. Dolore expedita porro est. Quia impedit quisquam sit ut officiis ut ut veritatis.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6517
+        [34mid[39m: [35m8[39m,
+        [34mtitle[39m: "[32mMiss[39m",
+        [34mbody[39m: "[32mDeleniti deleniti laborum aperiam mollitia et sint. Eum ut voluptas laboriosam aliquid laborum qui consectetur. Suscipit placeat dolorem consequatur aut placeat et quia at. Enim id qui tempore est.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6518
+        [34mid[39m: [35m9[39m,
+        [34mtitle[39m: "[32mMs.[39m",
+        [34mbody[39m: "[32mOccaecati blanditiis optio ut nesciunt dolor illum nihil. Odit delectus in deleniti est.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6519
+        [34mid[39m: [35m10[39m,
+        [34mtitle[39m: "[32mDr.[39m",
+        [34mbody[39m: "[32mVoluptas tempore architecto illum ut. Saepe consequatur aut maxime mollitia explicabo velit dolor autem. Aperiam dolor eos officiis quia at. Cumque quasi et sed et quia nostrum.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6520
+        [34mid[39m: [35m11[39m,
+        [34mtitle[39m: "[32mProf.[39m",
+        [34mbody[39m: "[32mOccaecati aut ex quae. Accusantium est doloremque dolorem quisquam sint debitis. Sed ullam ipsa aut in vero dolor. Sed et qui fugiat pariatur aliquam. Vero dicta accusamus reprehenderit eos ut.[39m",
+        [34mcreated_at[39m: "[32m2025-02-17 07:49:41[39m",
+        [34mupdated_at[39m: "[32m2025-02-17 07:49:41[39m",
+      },
+      [34;4mApp\Models\Post[39;24m {#6521
+        [34mid[39m: [35m12[39m,
+        [34mtitle[39m: "[32mnaufel[39m",
+        [34mbody[39m: "[32mtestestes[39m\n",
+        [34mcreated_at[39m: "[32m2025-02-18 00:35:35[39m",
+        [34mupdated_at[39m: "[32m2025-02-18 00:35:35[39m",
+      },
+    ],
+  }
+
